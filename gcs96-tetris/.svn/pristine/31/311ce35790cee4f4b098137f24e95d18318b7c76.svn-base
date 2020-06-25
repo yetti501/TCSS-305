@@ -1,0 +1,53 @@
+package view;
+
+import java.awt.EventQueue;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+import javax.sound.sampled.Clip;
+
+import model.Board;
+
+public class TertisMenu implements PropertyChangeListener {
+
+    /** The Tetris Game Board. */
+    private static final Board myBoard = new Board();
+    
+    /** Audio clip. */
+    private Clip myClip;
+    
+    /** Boolean for play/ pause music. */
+    private boolean myMusicPause;
+    
+    private TetrisMain() {
+        
+    }
+    
+    
+    
+    
+    
+    
+    @Override
+    public void propertyChange(PropertyChangeEvent arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+    
+    public static void main(final String[] theArge) {
+        final TetrisMain tetris = new TetrisMain();
+        EventQueue.invokeLater(new Runnable() {
+
+            @Override
+            public void run() {
+                // TODO Auto-generated method stub
+                
+                tetris.createComponents(tetris);
+                tetris.playMusic
+                
+            }
+            
+        })
+    }
+
+}

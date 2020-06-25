@@ -1,0 +1,62 @@
+package view;
+
+import java.util.Observable;
+import java.util.Observer;
+import model.Block;
+import model.Board;
+import model.TetrisPiece;
+
+/**
+ * 
+ * @author Grant
+ * @version Something
+ */
+public class TetrisGUI {
+
+    /**
+     * 
+     * @param args something
+     */
+    public static void main(final String[] args) {
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+//        final Board b = new Board();
+//        b.addObserver(new Observer() {
+//            public void update(final Observable o, final Object arg) {
+//                System.out.println("\n*******************"); 
+//                if (arg instanceof TetrisPiece) {
+//                    System.out.println(arg);
+//                } else if (arg instanceof Boolean) {
+//                    System.out.println("GAME OVER!");
+//                } else if (arg instanceof Block[][]) {
+//                    System.out.println(((Block[][]) arg).length);
+//                    for (final Block[] row : (Block[][]) arg) {
+//                        for (final Block b : row) {
+//                            if (b == null) {
+//                                System.out.print("[ ]");
+//                            } else {
+//                                System.out.print("[" + b + "]");
+//                            }
+//                        }
+//                        System.out.println();
+//                    }
+//                    System.out.println(arg.getClass());
+//                }
+//            }
+//        });
+//        
+//        b.newGame();
+//        for (int i = 0; i < 25; i++) {
+//            b.step();
+//        }   
+    }
+}
